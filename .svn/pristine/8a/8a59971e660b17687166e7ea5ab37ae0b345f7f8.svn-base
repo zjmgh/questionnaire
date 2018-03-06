@@ -1,0 +1,19 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Administrator
+ * Date: 2017/8/28
+ * Time: 21:13
+ */
+namespace app\index\controller;
+use think\Controller;
+
+class Course extends Controller{
+    public function index(){
+        return view();
+    }
+
+    public function add(){
+        return view();
+    }
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="__ROOT__/bootstrap/css/bootstrap.css">
+    <script src="__ROOT__/bootstrap/js/bootstrap.js"></script>
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="__ROOT__/lib/html5shiv.js"></script>
+    <script type="text/javascript" src="__ROOT__/lib/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="__ROOT__/static/h-ui/css/H-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="__ROOT__/static/h-ui.admin/css/H-ui.admin.css" />
+    <link rel="stylesheet" type="text/css" href="__ROOT__/lib/Hui-iconfont/1.0.8/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="__ROOT__/static/h-ui.admin/skin/default/skin.css" id="skin" />
+    <link rel="stylesheet" type="text/css" href="__ROOT__/static/h-ui.admin/css/style.css" />
+    <!--[if IE 6]>
+    <script type="text/javascript" src="__ROOT__/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+    <script>DD_belatedPNG.fix('*');</script>
+    <![endif]-->
+    <title>列表</title>
+
+    <script type="text/javascript" language="javascript">
+        function selectBox(selectType){
+            var checkboxis = document.getElementsByName("id[]");
+            if(selectType == "reverse"){
+                for (var i=0; i<checkboxis.length; i++){
+                    //alert(checkboxis[i].checked);
+                    checkboxis[i].checked = !checkboxis[i].checked;
+                }
+            }
+            else if(selectType == "all")
+            {
+                for (var i=0; i<checkboxis.length; i++){
+                    //alert(checkboxis[i].checked);
+                    checkboxis[i].checked = true;
+                }
+            }
+        }
+    </script>
+
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 题库管理 <span class="c-gray en">&gt;</span> 题目列表 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="__ROOT__/index/Student/index" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="page-container">
+    <div class="page-container">
+        <!-- <a href="__ROOT__/index/Student/create" class="btn btn-info btn-xs">添加数据</a>-->
+        <!--<form action="__ROOT__/index/Student/datadel" method="post">-->
+
+        <span class="l">
+                    <a class="btn btn-primary radius" data-title="添加题目" data-href="__ROOT__/index/question/create" onclick="Hui_admin_tab(this)" href="javascript:;"><i class="Hui-iconfont">&#xe600;</i> 添加题目</a>&nbsp;&nbsp;&nbsp;</span>
+        <form id="form2" name="form2" method="post" action="data_del" onsubmit="return checkF(this)">
+            <input type="submit" name="allDel" class="btn btn-danger radius"style=" border:none;" value="批量删除"/>
+
+            <span class="r">共有数据：<strong>{$count}</strong> 条</span>
+        <div class="cl pd-5 bg-1 bk-gray mt-20">
+
+                <table class="table table-border table-bordered table-bg">
+                    <tr class="row">
+                        <td>问题编号</td>
+                        <td>问题</td>
+                        <td>选项1</td>
+                        <td>选项2</td>
+                        <td>选项3</td>
+                        <td>选项4</td>
+                        <td>选项5</td>
+                        <td>编辑</td>
+                    </tr>
+                    <tbody>
+                    {volist name="data" id="v"}
+                    <tr class="row">
+                        {if $v->id != 0}
+                        <td>
+                            <input type="checkbox" name="hobby[]" value="{$v->id}">
+                        </td>
+                        <td>{$v->title}</td>
+                        <td>{$v->option1}</td>
+                        <td>{$v->option2}</td>
+                        <td>{$v->option3}</td>
+                        <td>{$v->option4}</td>
+                        <td>{$v->option5}</td>
+                        <td><a href="{:url('question/delete',['id'=>$v->id])}" class="btn btn-default btn-xs">删除</a>
+                            <a href="{:url('question/edit',['id'=>$v->id])}" class="btn btn-default btn-xs">修改</a></td>
+                        {/if}
+                    </tr>
+                    {/volist}
+                    </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="__ROOT__/lib/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="__ROOT__/lib/layer/2.4/layer.js"></script>
+    <script type="text/javascript" src="__ROOT__/static/h-ui/js/H-ui.min.js"></script>
+    <script type="text/javascript" src="__ROOT__/static/h-ui.admin/js/H-ui.admin.js"></script>
+
+    <script type="text/javascript" src="__ROOT__/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+    <script type="text/javascript" src="__ROOT__/lib/datatables/1.10.0/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="__ROOT__/lib/laypage/1.2/laypage.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,843 @@
+---------------------------------------------------------------
+[ 2017-08-27T20:56:14+08:00 ] ::1 ::1 GET /questionnaire/public/index.php/index
+[ info ] localhost/questionnaire/public/index.php/index [运行时间：0.123693s][吞吐率：8.08req/s] [内存消耗：1,571.32kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\questionnaire\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T20:57:22+08:00 ] ::1 ::1 GET /questionnaire/public/index
+[ info ] localhost/questionnaire/public/index [运行时间：0.024103s][吞吐率：41.49req/s] [内存消耗：1,571.28kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380; pgv_si=s1479507968',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\questionnaire\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T20:57:25+08:00 ] ::1 ::1 GET /questionnaire/public/index
+[ info ] localhost/questionnaire/public/index [运行时间：0.023640s][吞吐率：42.30req/s] [内存消耗：1,571.28kb] [文件加载：38]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380; pgv_si=s1479507968',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\questionnaire\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:14:46+08:00 ] ::1 ::1 GET /questionnaire/public/index
+[ info ] localhost/questionnaire/public/index [运行时间：0.070059s][吞吐率：14.27req/s] [内存消耗：2,147.52kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380; pgv_si=s1479507968',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\wamp\www\questionnaire\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp\www\questionnaire\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:15:53+08:00 ] ::1 ::1 GET /questionnaire/public/index
+[ info ] localhost/questionnaire/public/index [运行时间：0.025803s][吞吐率：38.76req/s] [内存消耗：1,983.71kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503839686',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\wamp\www\questionnaire\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp\www\questionnaire\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:15:54+08:00 ] ::1 ::1 GET /questionnaire/public/static/h-ui.admin/images/logo.png
+[ info ] localhost/questionnaire/public/static/h-ui.admin/images/logo.png [运行时间：0.089517s][吞吐率：11.17req/s] [内存消耗：1,615.08kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'h-ui.admin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/questionnaire/public/static/h-ui.admin/css/H-ui.login.css',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503839686',
+  'connection' => 'keep-alive',
+  'if-modified-since' => 'Sun, 18 Jun 2017 14:41:46 GMT',
+  'if-none-match' => '"532d-5523d04871e80"',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:17:07+08:00 ] ::1 ::1 GET /questionnaire/public/index
+[ info ] localhost/questionnaire/public/index [运行时间：0.036427s][吞吐率：27.45req/s] [内存消耗：2,147.73kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503839754',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\wamp\www\questionnaire\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp\www\questionnaire\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:17:07+08:00 ] ::1 ::1 GET /questionnaire/public/static/h-ui.admin/images/logo.png
+[ info ] localhost/questionnaire/public/static/h-ui.admin/images/logo.png [运行时间：0.026447s][吞吐率：37.81req/s] [内存消耗：1,614.18kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'h-ui.admin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/questionnaire/public/static/h-ui.admin/css/H-ui.login.css',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503839754',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:19:16+08:00 ] ::1 ::1 GET /questionnaire/public/index
+[ info ] localhost/questionnaire/public/index [运行时间：0.041302s][吞吐率：24.21req/s] [内存消耗：2,147.75kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503839828',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\wamp\www\questionnaire\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp\www\questionnaire\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:19:16+08:00 ] ::1 ::1 GET /questionnaire/public/static/h-ui.admin/images/logo.png
+[ info ] localhost/questionnaire/public/static/h-ui.admin/images/logo.png [运行时间：0.041055s][吞吐率：24.36req/s] [内存消耗：1,614.18kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'h-ui.admin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/questionnaire/public/static/h-ui.admin/css/H-ui.login.css',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503839828',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:21:50+08:00 ] ::1 ::1 GET /questionnaire/public/index
+[ info ] localhost/questionnaire/public/index [运行时间：0.038643s][吞吐率：25.88req/s] [内存消耗：2,147.90kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503839957',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\wamp\www\questionnaire\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp\www\questionnaire\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:21:50+08:00 ] ::1 ::1 GET /questionnaire/public/static/h-ui.admin/images/logo.png
+[ info ] localhost/questionnaire/public/static/h-ui.admin/images/logo.png [运行时间：0.031290s][吞吐率：31.96req/s] [内存消耗：1,614.18kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'h-ui.admin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/questionnaire/public/static/h-ui.admin/css/H-ui.login.css',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503839957',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:22:13+08:00 ] ::1 ::1 GET /questionnaire/public/index
+[ info ] localhost/questionnaire/public/index [运行时间：0.036572s][吞吐率：27.34req/s] [内存消耗：2,147.85kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503840111',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\wamp\www\questionnaire\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp\www\questionnaire\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:22:13+08:00 ] ::1 ::1 GET /questionnaire/public/static/h-ui.admin/images/logo.png
+[ info ] localhost/questionnaire/public/static/h-ui.admin/images/logo.png [运行时间：0.029329s][吞吐率：34.10req/s] [内存消耗：1,614.18kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'h-ui.admin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/questionnaire/public/static/h-ui.admin/css/H-ui.login.css',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503840111',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:22:34+08:00 ] ::1 ::1 GET /questionnaire/public/index
+[ info ] localhost/questionnaire/public/index [运行时间：0.032670s][吞吐率：30.61req/s] [内存消耗：2,147.84kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503840134',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\wamp\www\questionnaire\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp\www\questionnaire\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:22:35+08:00 ] ::1 ::1 GET /questionnaire/public/static/h-ui.admin/images/logo.png
+[ info ] localhost/questionnaire/public/static/h-ui.admin/images/logo.png [运行时间：0.027797s][吞吐率：35.98req/s] [内存消耗：1,614.18kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'h-ui.admin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/questionnaire/public/static/h-ui.admin/css/H-ui.login.css',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503840134',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:22:48+08:00 ] ::1 ::1 GET /questionnaire/public/index
+[ info ] localhost/questionnaire/public/index [运行时间：0.036523s][吞吐率：27.38req/s] [内存消耗：2,147.85kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503840155',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\wamp\www\questionnaire\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp\www\questionnaire\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:22:48+08:00 ] ::1 ::1 GET /questionnaire/public/static/h-ui.admin/images/logo.png
+[ info ] localhost/questionnaire/public/static/h-ui.admin/images/logo.png [运行时间：0.031293s][吞吐率：31.96req/s] [内存消耗：1,614.18kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'h-ui.admin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/questionnaire/public/static/h-ui.admin/css/H-ui.login.css',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503840155',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:23:15+08:00 ] ::1 ::1 GET /questionnaire/public/index
+[ info ] localhost/questionnaire/public/index [运行时间：0.034563s][吞吐率：28.93req/s] [内存消耗：2,147.85kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503840169',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\wamp\www\questionnaire\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp\www\questionnaire\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:23:15+08:00 ] ::1 ::1 GET /questionnaire/public/static/h-ui.admin/images/logo.png
+[ info ] localhost/questionnaire/public/static/h-ui.admin/images/logo.png [运行时间：0.031714s][吞吐率：31.53req/s] [内存消耗：1,614.18kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'h-ui.admin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/questionnaire/public/static/h-ui.admin/css/H-ui.login.css',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503840169',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:26:10+08:00 ] ::1 ::1 GET /questionnaire/public/index
+[ info ] localhost/questionnaire/public/index [运行时间：0.035001s][吞吐率：28.57req/s] [内存消耗：2,147.92kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503840196',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\wamp\www\questionnaire\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp\www\questionnaire\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:26:10+08:00 ] ::1 ::1 GET /questionnaire/public/static/h-ui.admin/images/logo.png
+[ info ] localhost/questionnaire/public/static/h-ui.admin/images/logo.png [运行时间：0.042280s][吞吐率：23.65req/s] [内存消耗：1,614.17kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'h-ui.admin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/questionnaire/public/static/h-ui.admin/css/H-ui.login.css',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503840196',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:26:10+08:00 ] ::1 ::1 GET /questionnaire/public/captcha.html
+[ info ] localhost/questionnaire/public/captcha.html [运行时间：0.206191s][吞吐率：4.85req/s] [内存消耗：1,640.09kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/questionnaire/public/index',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503840196',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp\www\questionnaire\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:28:47+08:00 ] ::1 ::1 GET /questionnaire/public/index
+[ info ] localhost/questionnaire/public/index [运行时间：0.032066s][吞吐率：31.19req/s] [内存消耗：1,984.56kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503840370; PHPSESSID=ajcsl95i1odsah1446tb0tcif1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\wamp\www\questionnaire\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp\www\questionnaire\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:28:47+08:00 ] ::1 ::1 GET /questionnaire/public/captcha.html
+[ info ] localhost/questionnaire/public/captcha.html [运行时间：0.024958s][吞吐率：40.07req/s] [内存消耗：1,640.67kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/questionnaire/public/index',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503840370; PHPSESSID=ajcsl95i1odsah1446tb0tcif1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp\www\questionnaire\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:28:47+08:00 ] ::1 ::1 GET /questionnaire/public/static/h-ui.admin/images/logo.png
+[ info ] localhost/questionnaire/public/static/h-ui.admin/images/logo.png [运行时间：0.027792s][吞吐率：35.98req/s] [内存消耗：1,614.95kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'h-ui.admin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/questionnaire/public/static/h-ui.admin/css/H-ui.login.css',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503840370; PHPSESSID=ajcsl95i1odsah1446tb0tcif1',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:29:17+08:00 ] ::1 ::1 GET /questionnaire/public/index
+[ info ] localhost/questionnaire/public/index [运行时间：0.028927s][吞吐率：34.57req/s] [内存消耗：1,984.56kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503840528; PHPSESSID=ajcsl95i1odsah1446tb0tcif1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\wamp\www\questionnaire\application\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\wamp\www\questionnaire\public/../application/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:29:17+08:00 ] ::1 ::1 GET /questionnaire/public/captcha.html
+[ info ] localhost/questionnaire/public/captcha.html [运行时间：0.028339s][吞吐率：35.29req/s] [内存消耗：1,640.77kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/questionnaire/public/index',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503840528; PHPSESSID=ajcsl95i1odsah1446tb0tcif1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\wamp\www\questionnaire\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-08-27T21:29:17+08:00 ] ::1 ::1 GET /questionnaire/public/static/h-ui.admin/images/logo.png
+[ info ] localhost/questionnaire/public/static/h-ui.admin/images/logo.png [运行时间：0.030745s][吞吐率：32.53req/s] [内存消耗：1,614.95kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'h-ui.admin',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/questionnaire/public/static/h-ui.admin/css/H-ui.login.css',
+  'cookie' => 'pgv_pvi=9791592448; Hm_lvt_080836300300be57b7f34f4b3e97d911=1503316984,1503403963,1503554380,1503839686; pgv_si=s1479507968; Hm_lpvt_080836300300be57b7f34f4b3e97d911=1503840528; PHPSESSID=ajcsl95i1odsah1446tb0tcif1',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

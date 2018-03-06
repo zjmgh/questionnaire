@@ -1,0 +1,16 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Administrator
+ * Date: 2017/8/28
+ * Time: 11:23
+ */
+namespace app\index\controller;
+use think\Controller;
+
+class Index extends Controller{
+    public function index(){
+        return view();
+    }
+}
+

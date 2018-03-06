@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="__ROOT__/static/bootstrap/css/bootstrap.css">
+    <script src="__ROOT__/static/bootstrap/js/bootstrap.js"></script>
+    <title>老师</title>
+</head>
+<body>
+
+<div style="margin:10px 20px;">
+    <a href="{:url('teacher/create')}" class="btn btn-info btn-sm">添加老师</a>
+    <table class="table table-bordered">
+        <tr class="row">
+            <td>姓名</td><td>性别</td><td>年龄</td><td>所教课程</td><td>编辑</td>
+        </tr>
+        {volist name="data" id="v"}
+        <tr class="row">
+            <td>{$v->name}</td>
+            <td>{$v->sex}</td>
+            <td>{$v->age}</td>
+            <td>{$v->course->name}</td>
+            <td><a href="{:url('teacher/delete',['id'=>$v->id])}" class="btn btn-danger btn-sm">删除</a>&nbsp;&nbsp;<a href="{:url('teacher/edit',['id'=>$v->id])}" class="btn btn-info btn-sm">修改</a></td>
+        </tr>
+        {/volist}
+    </table>
+    <div style="text-align: center">{$data->render()}</div>
+</div>
+</body>
+</html>

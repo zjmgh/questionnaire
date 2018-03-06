@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>问卷信息</title>
+    {css href="__ROOT__/bootstrap/css/bootstrap.css"}
+    {js href="__ROOT__/bootstrap/js/bootstrap.js"}
+</head>
+<body>
+<div style="text-align: center">
+    <h1>问卷题目</h1>
+</div>
+<hr>
+<br>
+<br>
+<form action="__ROOT__/index/result/add" method="post">
+<div style="margin-left:200px;text-align: left;">
+{foreach $question as $v}
+    <for start="1" end="100">
+        <h3>
+        {$i++}
+    {$v->title}</h3><br>
+    <label>{if $v->option1 != null}
+    <input name="{$v->id}" type="radio" value="1" />{$v->option1}
+    {/if}&nbsp;&nbsp;&nbsp;&nbsp;
+    {if $v->option2 != null}
+    <input name="{$v->id}" type="radio" value="2" />{$v->option2}
+    {/if}&nbsp;&nbsp;&nbsp;&nbsp;
+    {if $v->option3 != null}
+    <input name="{$v->id}" type="radio" value="3" />{$v->option3}
+    {/if}&nbsp;&nbsp;&nbsp;&nbsp;
+    {if $v->option4 != null}
+    <input name="{$v->id}" type="radio" value="4" />{$v->option4}
+    {/if}&nbsp;&nbsp;&nbsp;&nbsp;
+    {if $v->option5 != null}
+    <input name="{$v->id}" type="radio" value="5" />{$v->option5}
+    {/if}</label><br><br>
+    </for>
+{/foreach}
+</div>
+    <div style="margin-left:200px;text-align: left;">
+        <br><br>
+    <a href="__ROOT__/userindex/index/index" class="btn btn-danger btn-md">退出问卷</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="submit" name="submit" value="提交" class="btn btn-primary btn-md">
+        </div>
+</form>
+</body>
+</html>

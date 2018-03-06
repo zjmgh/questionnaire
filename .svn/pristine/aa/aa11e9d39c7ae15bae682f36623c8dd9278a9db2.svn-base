@@ -1,0 +1,15 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Administrator
+ * Date: 2017/8/28
+ * Time: 20:44
+ */
+namespace app\index\controller;
+use think\Controller;
+
+class Inquire extends Controller{
+    public function index(){
+        return view();
+    }
+}

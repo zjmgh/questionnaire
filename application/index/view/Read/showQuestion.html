@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>问题统计</title>
+    {css href="__ROOT__/bootstrap/css/bootstrap.css"}
+    {js href="__ROOT__/bootstrap/js/bootstrap.js"}
+</head>
+<body>
+<div>
+    {foreach $result as $v}
+    <table class="table table-border table-bordered table-bg table-hover table-sort table-responsive">
+        <tr>
+            <th>问题内容</th>
+            {if $v->question->option1}
+            <th>{$v->question->option1}</th>
+            {/if}
+            {if $v->question->option2}
+            <th>{$v->question->option2}</th>
+            {/if}
+            {if $v->question->option3}
+            <th>{$v->question->option3}</th>
+            {/if}
+            {if $v->question->option4}
+            <th>{$v->question->option4}</th>
+            {/if}
+            {if $v->question->option5}
+            <th>{$v->question->option5}</th>
+            {/if}
+        </tr>
+        <tr>
+            <td>{$v->title}</td>
+            {if $v->result1}
+            <td>{$v->result1}</td>
+            {/if}
+            {if $v->result2}
+            <td>{$v->result2}</td>
+            {/if}
+            {if $v->result3}
+            <td>{$v->result3}</td>
+            {/if}
+            {if $v->result4}
+            <td>{$v->result4}</td>
+            {/if}
+            {if $v->result5}
+            <td>{$v->result5}</td>
+            {/if}
+        </tr>
+    </table>
+    {/foreach}
+</div>
+</body>
+</html>

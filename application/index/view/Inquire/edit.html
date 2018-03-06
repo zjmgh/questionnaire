@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="__ROOT__/static/bootstrap/css/bootstrap.css">
+    <script src="__ROOT__/static/bootstrap/js/bootstrap.js"></script>
+    <title>edit</title>
+</head>
+<body>
+<div style="margin:30px 450px">
+    <form action="{:url('inquire/update',['id'=>$inquire->id])}" method="post">
+        <div class="form-group">
+            <label class="control-label">问卷名</label>
+            <input type="text" name="name" class="form-control" value="{$inquire->name}"><br />
+
+            <label class="control-label">老师</label>
+            <select class="form-control" name="teacher" >
+                {volist name="data" id="v"}
+                {if condition="$v->id == $inquire->teacher_id"}
+                <option value="{$v->id}"  selected >
+                    {$v->name}
+                </option>
+                {else /}
+                <option value="{$v->id}">
+                    {$v->name}
+                </option>
+                {/if}
+                {/volist}
+            </select>
+        </div>
+        <div class="form-group">
+            <input type="submit" name="submit" class="btn btn-info btn-sm form-control" value="保存">
+        </div>
+    </form>
+</div>
+</body>
+</html>

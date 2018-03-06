@@ -1,0 +1,24 @@
+﻿<?php
+/**
+ * Created by PhpStorm.
+ * User: Administrator
+ * Date: 2017/8/29
+ * Time: 13:26
+ */
+namespace app\index\model;
+use think\Model;
+class Course extends Model{
+    public function teacher(){
+        return $this->hasOne('teacher');
+    }
+    public function student(){
+        return $this->hasMany('Student');
+    }
+    public function inquireinfo(){
+        return $this->hasMany('inquire');
+    }
+    protected function getStatusAttr($value){
+        $key=['0'=>'未审批','1'=>'审批'];
+        return $key[$value];
+    }
+}

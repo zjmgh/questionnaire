@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>针对课程的统计</title>
+    {css href="__ROOT__/bootstrap/css/bootstrap.css"}
+    {js href="__ROOT__/bootstrap/js/bootstrap.js"}
+</head>
+<body>
+<div>
+{foreach $course as $v}
+<table class="table table-border table-bordered table-bg table-hover table-sort table-responsive">
+    <tr>
+        <td>课程名</td>
+        {if $v->question->option1}
+            <td>$v->question->option1</td>
+        {/if}
+        {if $v->question->option2}
+            <td>$v->question->option2</td>
+        {/if}
+        {if $v->question->option3}
+            <td>$v->question->option3</td>
+        {/if}
+        {if $v->question->option4}
+            <td>$v->question->option4</td>
+        {/if}
+        {if $v->question->option5}
+            <td>$v->question->option5</td>
+        {/if}
+    </tr>
+    <tr>
+        <td>{$v->name}</td>
+        {if $v->result1}
+            <td>$v->result1</td>
+        {/if}
+        {if $v->result2}
+            <td>$v->result2</td>
+        {/if}
+        {if $v->result3}
+            <td>$v->result3</td>
+        {/if}
+        {if $v->result4}
+            <td>$v->result4</td>
+        {/if}
+        {if $v->result5}
+            <td>$v->result5</td>
+        {/if}
+    </tr>
+</table>
+    {/foreach}
+</div>
+</body>
+</html>

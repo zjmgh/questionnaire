@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="__ROOT__/static/bootstrap/css/bootstrap.css">
+    <script src="__ROOT__/static/bootstrap/js/bootstrap.js"></script>
+    <title>create</title>
+</head>
+<body>
+<div style="margin:30px 450px">
+    <form action="{:url('teacher/save')}" method="post">
+        <div class="form-group">
+            <label class="control-label">老师姓名</label>
+            <input type="text" name="name" class="form-control"><br />
+
+            <label class="control-label">老师性别</label>&nbsp;&nbsp;
+            <select class="form-control" name="sex">
+                <option>男</option>
+                <option>女</option>
+            </select><br />
+            <label class="control-label">老师年龄</label>
+            <input type="text" name="age" class="form-control">
+            <br><label class="control-label">老师所教课程</label>
+
+            <select class="form-control" name="course">
+                {volist name="data" id="v"}
+                <option value="{$v->id}">{$v->name}</option>
+                {/volist}
+            </select><br />
+        </div>
+        <div class="form-group">
+            <input type="submit" name="submit" class="btn btn-info btn-sm form-control" value="添加老师">
+        </div>
+    </form>
+</div>
+</body>
+</html>

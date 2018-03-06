@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="Bookmark" href="/favicon.ico" >
+    <link rel="Shortcut Icon" href="/favicon.ico" />
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="__ROOT__/lib/html5shiv.js"></script>
+    <script type="text/javascript" src="__ROOT__/lib/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="__ROOT__/static/h-ui/css/H-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="__ROOT__/static/h-ui.admin/css/H-ui.admin.css" />
+    <link rel="stylesheet" type="text/css" href="__ROOT__/lib/Hui-iconfont/1.0.8/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="__ROOT__/static/h-ui.admin/skin/default/skin.css" id="skin" />
+    <link rel="stylesheet" type="text/css" href="__ROOT__/static/h-ui.admin/css/style.css" />
+    <!--[if IE 6]>
+    <script type="text/javascript" src="__ROOT__/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+    <script>DD_belatedPNG.fix('*');</script>
+    <![endif]-->
+    <title>后台管理系统</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+</head>
+<body>
+<div id="iframe_box" class="Hui-article">
+    <div class="show_iframe">
+
+
+        <div class="page-container">
+            <p class="f-20 text-success"><h1>欢迎来到学生修改页面！</h1></p>
+            <form action="{:url('student/update')}" method="post">
+                <div >
+                    <label class="control-label">ID</label>
+                    <input type="text" name="id" class="form-control" value="{$student->id}">
+                </div>
+                <div >
+                    <label class="control-label">姓名</label>
+                    <input type="text" name="name" class="form-control" value="{$student->name}">
+                </div>
+                <div >
+                    <label class="control-label">性别</label>
+                    <input type="text" name="sex" class="form-control" value="{$student->sex}">
+                </div>
+                <div >
+                    <label class="control-label">岁数</label>
+                    <input type="text" name="age" class="form-control" value="{$student->age}">
+                </div>
+                <div >
+                    <label class="control-label">教室</label>
+                    <input type="text" name="teacher_id" class="form-control" value="{$student->course_id}">
+                </div>
+                <div>
+                    <input type="submit" name="submit" class="btn" value="修改用户">
+                </div>
+            </form>
+        </div>
+        <!--_footer 作为公共模版分离出去-->
+        <script type="text/javascript" src="__ROOT__/lib/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="__ROOT__/lib/layer/2.4/layer.js"></script>
+        <script type="text/javascript" src="__ROOT__/static/h-ui/js/H-ui.min.js"></script>
+        <script type="text/javascript" src="__ROOT__/static/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->
+
+        <!--请在下方写此页面业务相关的脚本-->
+        <script type="text/javascript" src="__ROOT__/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+        <script type="text/javascript" src="__ROOT__/lib/jquery.validation/1.14.0/jquery.validate.js"></script>
+        <script type="text/javascript" src="__ROOT__/lib/jquery.validation/1.14.0/validate-methods.js"></script>
+        <script type="text/javascript" src="__ROOT__/lib/jquery.validation/1.14.0/messages_zh.js"></script>
+        <script type="text/javascript">
+            $(function(){
+                $('.skin-minimal input').iCheck({
+                    checkboxClass: 'icheckbox-blue',
+                    radioClass: 'iradio-blue',
+                    increaseArea: '20%'
+                });
+
+                $("#form-member-add").validate({
+                    rules:{
+                        username:{
+                            required:true,
+                            minlength:2,
+                            maxlength:16
+                        },
+                        sex:{
+                            required:true,
+                        },
+                        mobile:{
+                            required:true,
+                            isMobile:true,
+                        },
+                        email:{
+                            required:true,
+                            email:true,
+                        },
+                        uploadfile:{
+                            required:true,
+                        },
+
+                    },
+                    onkeyup:false,
+                    focusCleanup:true,
+                    success:"valid",
+                    submitHandler:function(form){
+                        //$(form).ajaxSubmit();
+                        var index = parent.layer.getFrameIndex(window.name);
+                        //parent.$('.btn-refresh').click();
+                        parent.layer.close(index);
+                    }
+                });
+            });
+        </script>
+        <!--/请在上方写此页面业务相关的脚本-->
+    </div>
+</div>
+</body>
+</html>
